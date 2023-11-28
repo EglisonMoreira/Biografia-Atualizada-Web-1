@@ -4,6 +4,6 @@ Aluno: Eglison dos Santos Moreira
 
 Atividade de desenvovimento web: criar um projrto web contendo
 a biogrfia de uma personalidade, usando três paginas HTML 
-interligados em um arquivo CSS para estilização.
+interligados em um arquivo CSS para estilização. Deve conter elementos javascript e interação dinâmica usando DOM.
 
 Link para atividade no github pages: https://github.com/EglisonMoreira/Biografia-Web-1.git
