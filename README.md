@@ -2,8 +2,8 @@
 ESBAM-ADS 2B NOITE 
 Aluno: Eglison dos Santos Moreira
 
-Atividade de desenvovimento web: criar um projeto web contendo
-a biogrfia de uma personalidade, usando três paginas HTML 
+Atividade de desenvolvimento web: criar um projeto web contendo
+a biografia de uma personalidade, usando três paginas HTML 
 interligados em um arquivo CSS para estilização. Deve conter elementos javascript e interação dinâmica usando DOM.
 
 
