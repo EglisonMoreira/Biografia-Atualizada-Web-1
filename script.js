@@ -21,3 +21,5 @@ function mostrarAlerta() {
       window.location.href = 'legado.html';
     }, 1000);
   }
+
+  
