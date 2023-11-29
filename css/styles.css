@@ -101,4 +101,28 @@ button:active {
     animation: colorChange 0.1s;
 }
 
+.img-text {
+    float: left;
+    margin-right: 10px;
+}
+
+.img-text{
+    height: auto;
+    margin-right: 10px;
+}
+
+.esquerda1 {     /*imagem a esquerda no cabeçalho -> index.html*/
+    float: left;
+    margin-right: 90px;
+    border-radius: 6px;
+}
+
+.esquerda {     /*imagem a esquerda no cabeçalho -> biografia.html e legado.html*/
+    float: left;
+    margin-right: 140px;
+    opacity: 0.9;
+    border-radius: 6px;
+}
+
+
 
