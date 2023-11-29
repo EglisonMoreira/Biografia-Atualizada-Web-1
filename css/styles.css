@@ -45,39 +45,60 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    width: 100%;
+    padding: 1em;
+    background-color: rgba(252, 252, 252, 0.877);
+    border-radius: 0;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+main {
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+section {
+    flex: 1;
+    margin: 0.5em;
+}
+
 button {
-    background-color: rgb(145, 175, 175);
-    color: rgb(255, 255, 255);
-    padding: 5px 10px;
+    background-color: #00cc00fd;
+    color: rgb(0, 0, 148);
+    padding: 6px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    animation: colorBlink 10s infinite;
 }
- button:hover {
-    background-color: rgb(139, 135, 135);
- }
 
- button:active {
-    background-color: rgb(255, 255, 255);
- }
-
- figcaption {
-    font-size: 1.2em;
- }
-
-  style {
-    background-color: aqua;
-    color: blue;
+@keyframes colorBlink {
+    0%, 100% {
+      color: red;
+    }
+    20% {
+      color: blue;
+    }
+    40% {
+      color: #66FFFF;
+    }
+    60% {
+      color: rgba(17, 92, 86, 0.815);
+    }
+    80% {
+      color: rgb(25, 32, 27);
+    }
+    100% {
+      color: #ffff00;
+    }
   }
-
-  .container {
-    width: 70%;
-    margin: 0 auto;
+  
+button:hover {
+    background-color:  #009900;
 }
+
+button:active {
+    background-color:  rgb(255, 255, 255);
+    animation: colorChange 0.1s;
+}
+
+
