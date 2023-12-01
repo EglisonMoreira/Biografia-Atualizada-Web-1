@@ -178,10 +178,9 @@ button:active {
         padding: 0.15em;
         font-size: 0.60em;
     }
-      
-      .elem {
-        padding: 0em;
-    }
+      #mensagemBoasVindas {
+        font-size: 0.60em;
+      }
     
       main {
          padding: 0.5em;
@@ -275,10 +274,10 @@ header, main, footer {
 }
 
 @keyframes changeColor {
-    0% { background-color:rgba(255, 255, 255, 0.486);
+    0% { background-color:rgba(191, 253, 255, 0.486);
     }
     40% {
-         background-color: rgba(235, 235, 235, 0.329);
+         background-color: rgb(235, 235, 235)
     }
     80% {
          background-color: rgba(215, 215, 215, 0.288);
