@@ -22,4 +22,10 @@ function mostrarAlerta() {
     }, 1000);
   }
 
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    var rotatingContainer = document.getElementById('rotatingContainer');
+
+    rotatingContainer.addEventListener('animationiteration', function() {
+      rotatingContainer.classList.remove('rotate-animation');
+    });
+  });
