@@ -29,3 +29,17 @@ function mostrarAlerta() {
       rotatingContainer.classList.remove('rotate-animation');
     });
   });
+
+  function exibirBoasVindas() {
+    var mensagem = document.getElementById('mensagemBoasVindas');
+    mensagem.textContent = 'Seja muito bem-vindo(a)!';
+    mensagem.style.display = 'block';
+
+    // Ocultar a mensagem após 2 segundos (2000 milissegundos)
+    setTimeout(function() {
+      mensagem.style.display = 'none';
+    }, 10000);
+  }
+
+  // Exibir a mensagem de boas-vindas após 2 segundos (2000 milissegundos)
+  setTimeout(exibirBoasVindas, 100);
